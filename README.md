@@ -351,3 +351,4 @@ Merging PR #2 into `main` produces a push to `main`, which fires the webhook and
 | No e-mail received | Check the SMTP settings and *Default Recipients*. For Gmail use an app password. |
 | `nginx-proxy` does not start | It waits for `calculator-app` to be healthy. Check `docker compose logs calculator-app`. |
 | Port 80 refused when using `NGINX_HOST_PORT=80` | The port is in use or needs elevated privileges. Use the default `8081`. |
+
