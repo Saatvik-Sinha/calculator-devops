@@ -1,0 +1,37 @@
+# Build output (rebuilt inside the image)
+target/
+
+# Version control and CI metadata
+.git
+.gitignore
+.github/
+Jenkinsfile
+
+# Docker / deployment files are not needed inside the image
+Dockerfile
+.dockerignore
+docker-compose.yml
+nginx.conf
+
+# IDE and OS files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+nbproject/
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+
+# Secrets and local environment files
+.env
+.env.*
+*.pem
+*.key
+
+# Logs
+*.log
